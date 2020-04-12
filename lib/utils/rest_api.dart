@@ -1,8 +1,8 @@
 import 'dart:convert';
 
 import 'package:http/http.dart' as http;
-import 'package:kaatane_intija_final/model/meal.dart';
-import 'package:kaatane_intija_final/model/restaurant.dart';
+import 'package:intija02/model/meal.dart';
+import 'package:intija02/model/restaurant.dart';
 
 Future<List<Meal>> fetchMeals(int id) async {
   final response = await http.get('https://kaatane.herokuapp.com/api/meals/?q=$id');

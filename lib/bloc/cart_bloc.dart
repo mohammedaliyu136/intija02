@@ -3,12 +3,12 @@ import 'dart:io';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:kaatane_intija_final/model/meal.dart';
+import 'package:intija02/model/meal.dart';
 import 'package:http/http.dart' as http;
 //import 'package:js/js.dart';
-import 'package:kaatane_intija_final/ui/Order_Submitted_page.dart';
-import 'package:kaatane_intija_final/ui/loading_page.dart';
-import 'package:kaatane_intija_final/utils/paystack.dart';
+import 'package:intija02/ui/Order_Submitted_page.dart';
+import 'package:intija02/ui/loading_page.dart';
+import 'package:intija02/utils/paystack.dart';
 
 class CartBloc with ChangeNotifier {
 

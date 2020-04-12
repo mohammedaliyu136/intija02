@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kaatane_intija_final/bloc/cart_bloc.dart';
+import 'package:intija02/bloc/cart_bloc.dart';
 import 'package:provider/provider.dart';
 
 import 'payment_method_page.dart';

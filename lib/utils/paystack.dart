@@ -2,10 +2,10 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_paystack/flutter_paystack.dart';
-import 'package:kaatane_intija_final/bloc/cart_bloc.dart';
+import 'package:intija02/bloc/cart_bloc.dart';
 import 'dart:io';
 
-import 'package:kaatane_intija_final/ui/Order_Submitted_page.dart';
+import 'package:intija02/ui/Order_Submitted_page.dart';
 import 'package:provider/provider.dart';
 import 'package:http/http.dart' as http;
 

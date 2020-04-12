@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:kaatane_intija_final/ui/splashScreen_page.dart';
+import 'package:intija02/ui/splashScreen_page.dart';
 import 'package:provider/provider.dart';
 
 import 'bloc/cart_bloc.dart';

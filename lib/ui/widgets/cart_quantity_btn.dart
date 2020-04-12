@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/painting.dart';
 import 'package:flutter/rendering.dart';
-import 'package:kaatane_intija_final/bloc/cart_bloc.dart';
+import 'package:intija02/bloc/cart_bloc.dart';
 import 'package:provider/provider.dart';
 
 class Quantity_Cart_btn extends StatelessWidget {

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:kaatane_intija_final/model/restaurant.dart';
-import 'package:kaatane_intija_final/ui/widgets/contact.dart';
-import 'package:kaatane_intija_final/utils/rest_api.dart';
+import 'package:intija02/model/restaurant.dart';
+import 'package:intija02/ui/widgets/contact.dart';
+import 'package:intija02/utils/rest_api.dart';
 
 import 'meals_page.dart';
 import 'widgets/restaurant_list_item.dart';

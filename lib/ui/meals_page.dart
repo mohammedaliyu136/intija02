@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:kaatane_intija_final/bloc/cart_bloc.dart';
-import 'package:kaatane_intija_final/model/meal.dart';
-import 'package:kaatane_intija_final/model/restaurant.dart';
-import 'package:kaatane_intija_final/utils/rest_api.dart';
+import 'package:intija02/bloc/cart_bloc.dart';
+import 'package:intija02/model/meal.dart';
+import 'package:intija02/model/restaurant.dart';
+import 'package:intija02/utils/rest_api.dart';
 import 'package:provider/provider.dart';
 
 import 'cart_page.dart';
