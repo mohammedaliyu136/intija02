@@ -80,7 +80,7 @@ class RestaurantPage extends StatelessWidget {
                     ),
                   );
                 } else if (snapshot.hasError) {
-                  return Text("${snapshot.error}");
+                  return Text("Failed to load, please check your internet connect");//Text("${snapshot.error}");
                 }
 
                 // By default, show a loading spinner.

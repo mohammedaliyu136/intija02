@@ -4,6 +4,9 @@ import 'package:intija02/ui/splashScreen_page.dart';
 import 'package:provider/provider.dart';
 
 import 'bloc/cart_bloc.dart';
+import 'testUI/adsqqq.dart';
+import 'testUI/collapsingToolbar.dart';
+import 'testUI/flare.dart';
 
 void main() => runApp(MyApp());
 
@@ -30,7 +33,7 @@ class MyApp extends StatelessWidget {
             //primarySwatch: Colors.red,
             primaryColor: Color.fromRGBO(128, 0, 128, 1),
           ),
-          home: SplashScreen()//MyHomePage(title: 'Flutter Demo Home Page'),
+          home: SplashScreen()//SilverAppBarExampleNested()//SilverAppBarExample()//SplashScreen()//MyHomePage(title: 'Flutter Demo Home Page'),
       ),
     );
   }
